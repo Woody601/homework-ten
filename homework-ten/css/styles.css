@@ -1,0 +1,1269 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1282px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 94.1px;
+  max-width: 979px;
+  width: 100%;
+}
+
+.homeLogo {
+  width: 92px;
+  height: 42px;
+  margin-top: 30px;
+  margin-bottom: 20.5px;
+  border: solid 2px #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  margin-top: 30px;
+  margin-bottom: 20.5px;
+  border: solid 2px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.homeLinks {
+  height: 18px;
+  width: 498px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #79ADDC;
+  margin-top: 47px;
+  margin-bottom: 27px;
+  letter-spacing: 1px;
+}
+.homeLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dispatch-event {
+  width: 174px;
+}
+.dispatch-event a {
+  text-decoration: none;
+}
+.dispatch-event .date-time {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+.dispatch-event .dispatch-image img {
+  width: 100%;
+}
+.dispatch-event .title-bubble {
+  margin-top: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.dispatch-event .title-bubble .title h5 {
+  font-size: 11px;
+  margin-bottom: 0px;
+  color: #1A1C18;
+}
+.dispatch-event .title-bubble .bubble {
+  position: relative;
+  min-width: 24px;
+  height: 16px;
+  background-color: #888;
+  color: #fff;
+  font-size: 8px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dispatch-event .title-bubble .bubble .triangle {
+  position: absolute;
+  bottom: -7px;
+  left: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 7px 0 0;
+  border-color: #888 transparent transparent transparent;
+}
+
+.dispatch-event a:hover .title h5 {
+  color: #ff4444;
+}
+
+ul.explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px 60px;
+}
+ul.explore li {
+  list-style-type: none;
+}
+ul.explore li a img {
+  width: 340px;
+  height: 340px;
+}
+
+.nav-holder {
+  position: absolute;
+  max-width: 1100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: solid 2px #000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav-holder .links {
+  height: 18px;
+  width: 498px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #79ADDC;
+  margin-top: 47px;
+  margin-bottom: 27px;
+  letter-spacing: 1px;
+}
+.nav-holder .links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.homeNav {
+  border-bottom: solid 2px #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-holder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-holder .logo {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  .nav-holder .links {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+}
+.home .hero {
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
+  background-position: center;
+}
+.home .hero .travel-fly {
+  padding: 162px 0 28px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .hero .description {
+  font-style: italic;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 48px;
+}
+.home .hero .read-more {
+  width: 120px;
+  padding: 5px 15px;
+  background-color: #79addc;
+  border-radius: 0;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  margin: 0 auto;
+  margin-bottom: 93px;
+}
+.home .hero .read-more a {
+  text-decoration: none;
+  color: #fff;
+}
+.home .promo-trips {
+  margin: 0 auto;
+  margin-top: -50px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 818px;
+}
+.home .promo-trips .trip-location {
+  width: 236px;
+  height: 304px;
+  color: #fff;
+  text-align: center;
+  font-family: "Proxima Nova Condensed", sans-serif;
+}
+.home .promo-trips .trip-location .location-name {
+  margin-top: 37px;
+  margin-left: 27px;
+  margin-right: 27px;
+  font-size: 60px;
+  text-transform: uppercase;
+  height: 80px;
+}
+.home .promo-trips .trip-location .trip-price {
+  font-size: 30px;
+  margin-top: -15px;
+  height: 40px;
+}
+.home .promo-trips .trip-location .learn-more {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  max-width: 133px;
+  margin: 57px auto 56px;
+}
+.home .promo-trips .trip-location .learn-more a {
+  text-decoration: none;
+  color: #fff;
+}
+.home .promo-trips #israel {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/israel.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/israel.jpg");
+}
+.home .promo-trips #usa {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/usa.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/usa.jpg");
+}
+.home .promo-trips #austrailia {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/austrailia.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/austrailia.jpg");
+}
+@media only screen and (max-width: 707px) {
+  .home .promo-trips {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.home .booking {
+  min-height: 400px;
+  padding: 50px 0 0;
+  max-width: 818px;
+  margin: 0 auto;
+}
+.home .booking h1 {
+  font-size: 60px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: normal;
+}
+.home .booking .booking-wrapper {
+  max-width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home .booking .booking-wrapper .short-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-size: 18px;
+  width: 399px;
+  height: 58px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+.home .booking .booking-wrapper .short-input input {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  border: 1px solid #79ADDC;
+  padding: 18px 20px 19px;
+}
+.home .booking .booking-wrapper .date-input {
+  width: 818px;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.home .booking .booking-wrapper .date-input label {
+  min-width: 108px;
+  padding: 18px 0 19px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.home .booking .booking-wrapper .date-input input {
+  width: 100%;
+  border: 1px solid #79ADDC;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  padding: 18px 20px 19px;
+}
+.home .booking .booking-wrapper .number-select {
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 211px;
+  margin-bottom: 20px;
+}
+.home .booking .booking-wrapper .number-select label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-width: 108px;
+  font-size: 18px;
+}
+.home .booking .booking-wrapper .number-select select {
+  width: 103px;
+  height: 58px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  border: 2px solid #79ADDC;
+  padding: 18px 20px 19px;
+}
+.home .booking .booking-wrapper .long-input {
+  max-width: 818px;
+  width: 100%;
+  margin-bottom: 37px;
+}
+.home .booking .booking-wrapper .long-input textarea {
+  width: 100%;
+  min-height: 192px;
+  resize: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  padding: 20px 20px;
+  border: 1px solid #79ADDC;
+}
+.home .booking .booking-wrapper .booking-submit {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.home .booking .booking-wrapper .booking-submit a {
+  text-decoration: none;
+  color: #fff;
+}
+@media only screen and (max-width: 800px) {
+  .home .short-input {
+    min-width: 100%;
+  }
+}
+
+.about .hero .header {
+  padding: 182px 0 0;
+  margin-left: 10%;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: solid 2px #000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 1px;
+}
+.about .hero .description {
+  margin: 38px 10% 95px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about .clients {
+  margin-bottom: 180px;
+}
+.about .clients h1 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-bottom: solid 2px #000;
+  margin-left: 10%;
+}
+.about .clients .quote {
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 37px 10%;
+}
+.about .clients .quote img {
+  width: 260px;
+  height: 150px;
+}
+.about .clients .quote .quote-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.about .clients .quote .quote-content .quote-text {
+  font-style: italic;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 21px;
+}
+.about .clients .quote .quote-content .client {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #79ADDC;
+}
+
+@media only screen and (max-width: 642px) {
+  .about .clients .quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .clients .quote .quote-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.tours {
+  padding-top: 142px;
+}
+.tours .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tours.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tours.png");
+  background-position: center;
+  height: 200px;
+  max-width: 981px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+.tours .hero .header {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.tours .promo-trips {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 818px;
+}
+.tours .promo-trips .trip-location {
+  width: 236px;
+  height: 304px;
+  color: #fff;
+  text-align: center;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  margin-bottom: 50px;
+}
+.tours .promo-trips .trip-location .location-name {
+  margin-top: 37px;
+  font-size: 60px;
+  height: 80px;
+}
+.tours .promo-trips .trip-location .trip-price {
+  font-size: 30px;
+  margin-top: -15px;
+  height: 40px;
+}
+.tours .promo-trips .trip-location .learn-more {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  max-width: 133px;
+  margin: 57px auto 56px;
+}
+.tours .promo-trips .trip-location .learn-more a {
+  text-decoration: none;
+  color: #fff;
+}
+.tours .promo-trips #israel {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/israel.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/israel.jpg");
+}
+.tours .promo-trips #usa {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/usa.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/usa.jpg");
+}
+.tours .promo-trips #austrailia {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/austrailia.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/austrailia.jpg");
+}
+.tours .promo-trips #newzealand {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/newzealand.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/newzealand.png");
+}
+.tours .promo-trips #newzealand .location-name {
+  font-size: 48px;
+}
+.tours .promo-trips #france {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/france.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/france.png");
+}
+.tours .promo-trips #egypt {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/egypt.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/egypt.png");
+}
+.tours .promo-trips #japan {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/japan.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/japan.png");
+}
+.tours .promo-trips #canada {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/canada.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/canada.png");
+}
+.tours .promo-trips #uae {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/uae.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/uae.png");
+}
+@media only screen and (max-width: 707px) {
+  .tours .promo-trips {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.tour-info .hero {
+  margin: auto;
+  margin-top: 94px;
+  height: 413px;
+  background-position: center;
+  max-width: 982px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tour-info .hero .countryname {
+  padding: 18px 30px 0;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Proxima Nova Condensed", sans-serif;
+}
+.tour-info .hero .description {
+  font-size: 30px;
+  color: #fff;
+  text-align: right;
+  font-family: "Proxima Nova Condensed", sans-serif;
+}
+.tour-info .trip-pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 982px;
+  margin: auto;
+  margin-top: 42px;
+}
+.tour-info .trip-pictures .picture {
+  width: 298px;
+  height: 347px;
+  display: block;
+  margin-bottom: 42px;
+}
+.tour-info .trip-text {
+  max-width: 982px;
+  margin: auto;
+}
+.tour-info .trip-text h1 {
+  font-size: 60px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  border-bottom: 2px solid #000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: normal;
+}
+.tour-info .trip-text p {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 80px;
+}
+.tour-info .book-now {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  width: 133px;
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+.tour-info .book-now a {
+  text-decoration: none;
+  color: #fff;
+}
+@media only screen and (max-width: 896px) {
+  .tour-info .trip-pictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#israel .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/israel-wide.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/israel-wide.png");
+}
+
+#usa .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-02.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-02.png");
+}
+
+#austrailia .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-03.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-03.png");
+}
+
+#newzealand .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-04.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-04.png");
+}
+
+#france .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-05.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-05.png");
+}
+
+#egypt .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-06.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-06.png");
+}
+
+#japan .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-07.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-07.png");
+}
+
+#canada .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-08.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-08.png");
+}
+
+#uae .hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-09.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-09.png");
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blog .blog-header {
+  width: 100%;
+}
+.blog .blog-header h1 {
+  margin-top: 55px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #000;
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.blog .blog-post {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+.blog .blog-post .blog-date {
+  background-color: #79ADDC;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blog .blog-post .blog-date .date {
+  padding-top: 9px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.blog .blog-post .blog-date .month {
+  font-size: 12px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.blog .blog-post .blog-image {
+  width: 900px;
+  height: 259px;
+  margin-bottom: 34px;
+}
+.blog .blog-post .blog-image img {
+  width: 100%;
+  height: 100%;
+}
+.blog .blog-post .blog-text {
+  width: 100%;
+  padding-left: 80px;
+}
+.blog .blog-post .blog-text .blog-title {
+  font-size: 15px;
+  color: #000;
+  max-width: 380px;
+}
+.blog .blog-post .blog-text .blog-description {
+  font-size: 13px;
+  color: #79ADDC;
+  max-width: 380px;
+  height: 64px;
+}
+
+@media only screen and (max-width: 980px) {
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .blog .blog-post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 460px;
+  }
+  .blog .blog-post .blog-image {
+    width: 375px;
+    height: 133px;
+  }
+  .blog .blog-post .blog-text {
+    padding-left: 0;
+  }
+}
+.special-offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.special-offers .offer-header {
+  width: 100%;
+}
+.special-offers .offer-header h1 {
+  margin-top: 55px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #000;
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.special-offers .offer-post {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+}
+.special-offers .offer-image img {
+  width: 100%;
+  height: 100%;
+}
+.special-offers .offer-text {
+  width: 100%;
+  max-width: 375px;
+}
+.special-offers .offer-text .offer-title {
+  font-size: 15px;
+  color: #000;
+  max-width: 380px;
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 2px;
+  font-weight: normal;
+  border-bottom: 2px solid #000;
+}
+.special-offers .offer-text .offer-description {
+  font-size: 16px;
+  color: #000;
+  max-width: 290px;
+  height: 131px;
+}
+
+@media only screen and (max-width: 980px) {
+  .offer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .offer .offer-post {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 460px;
+  }
+  .offer .offer-post .offer-image {
+    width: 375px;
+    height: 133px;
+  }
+  .offer .offer-post .offer-text {
+    padding-left: 0;
+  }
+}
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.contact .contact-header {
+  width: 100%;
+}
+.contact .contact-header h1 {
+  margin-top: 55px;
+  margin-bottom: 59px;
+  border-bottom: 2px solid #000;
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.contact .map {
+  width: 400px;
+}
+.contact .map .map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+}
+.contact .map .address {
+  width: 100%;
+  height: 161px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact .contactForm {
+  width: 529px;
+}
+.contact .contactForm .textFields {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  resize: none;
+  background-color: #F5F5F5;
+  border: none;
+}
+.contact .contactForm textarea {
+  padding-top: 20px;
+  min-height: 200px;
+}
+.contact .contactForm .submit {
+  width: 167px;
+  height: 60px;
+  font-size: 16px;
+  background-color: #79addc;
+  border-radius: 0;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+.contact .contactForm .submit a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 980px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact .map {
+    margin-bottom: 20px;
+  }
+}
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .logo {
+  min-width: 92px;
+  height: 42px;
+  margin: 29px 0;
+  border: solid 2px #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+footer .copyright {
+  text-align: center;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+footer .social-media {
+  width: 92px;
+  height: 24px;
+  margin: 29px 0;
+}
+
+@media only screen and (max-width: 425px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}

@@ -1,0 +1,202 @@
+.home {
+    .hero {
+        height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                       rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
+        background-position: center;
+        .travel-fly {
+            padding: 162px 0 28px;
+            font-size: 60px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .description {
+            font-style: italic;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-bottom: 48px;
+        }
+
+        .read-more {
+            width: 120px;
+            padding: 5px 15px;
+            //background-color: brown;
+            @include site-button(0);
+            margin: 0 auto;
+            margin-bottom: 93px;
+        }
+    }
+
+    .promo-trips {
+        margin: 0 auto;
+        margin-top: -50px;
+        min-height: 304px;
+        //background-color: rgba(180, 180, 180, .5);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 818px;
+        .trip-location {
+            width: 236px;
+            height: 304px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Proxima Nova Condensed', sans-serif;
+            .location-name {
+                margin-top: 37px;
+                margin-left: 27px;
+                margin-right: 27px;
+                font-size: 60px;
+                text-transform: uppercase;
+                height: 80px;
+            }
+            .trip-price {
+                font-size: 30px;
+                margin-top: -15px;
+                height: 40px;
+            }
+            .learn-more {
+                @include site-button;
+                max-width: 133px;
+                margin: 57px auto 56px;
+            }
+        }
+        #israel-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../images/israel.jpg");
+        }
+        #usa-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../images/usa.jpg");
+        }
+        #austrailia-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../images/austrailia.jpg");
+        }
+    }
+    @media only screen and (max-width:707px) {
+        .promo-trips {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .booking {
+        min-height: 400px;
+        //background-color: darkcyan;
+        padding: 50px 0 0;
+        max-width: 818px;
+        margin: 0 auto;
+        h1 {
+            font-size: 60px;
+            font-family: 'Proxima Nova Condensed', sans-serif;
+            font-weight: normal;
+        }
+        .booking-wrapper {
+            max-width: 818px;
+            margin: 0 auto;
+            //background-color: deeppink;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .short-input {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: stretch;
+                //background-color: red;
+                font-size: 18px;
+                width: 399px;
+                height: 58px;
+                font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                margin-bottom: 20px;
+                //label {
+                    //padding:18px 20px 19px;
+                    //min-width: 108px;
+               //}
+                input {
+                    font-size: 18px;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                    width:100%;
+                    border: 1px solid #79ADDC;
+                    padding:18px 20px 19px;
+                    //max-width: 290px;
+                }
+            }
+            .date-input {
+                width: 818px;
+                height: 58px;
+                display: flex;
+                align-items: stretch;
+                font-size: 18px;
+                margin-bottom: 20px;
+                label {
+                    min-width: 108px;
+                    padding: 18px 0 19px;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                    font-size: 18px;
+                    //background-color: red;
+                }
+                input {
+                    width: 100%;
+                    border: 1px solid #79ADDC;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                    font-size: 18px;
+                    padding:18px 20px 19px;
+                }
+            }
+
+            .number-select {
+                height: 58px;
+                //background-color: red;
+                display: flex;
+                align-items: center;
+                max-width: 211px;
+                margin-bottom: 20px;
+                label {
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                    min-width: 108px;
+                    font-size: 18px;
+                }
+                select {
+                    width: 103px;
+                    height: 58px;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                    font-size: 18px;
+                    border: 2px solid #79ADDC;
+                    padding:18px 20px 19px;
+                }
+            }
+
+            .long-input {
+                max-width: 818px;
+                width: 100%;
+                margin-bottom: 37px;
+                textarea {
+                    width: 100%;
+                    min-height: 192px;
+                    resize: none;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+                    font-size: 18px;
+                    padding: 20px 20px;
+                    border: 1px solid #79ADDC;
+                }
+            }
+            
+            .booking-submit {
+                @include site-button;
+                width:100%;
+                margin-bottom: 100px;
+            }
+
+        }
+    }
+    @media only screen and (max-width:800px) {
+        .short-input {
+            min-width:100%;
+        }
+    }
+}

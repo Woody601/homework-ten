@@ -1,0 +1,101 @@
+.blog {
+  height: 600px;
+  background-color: coral;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.blog .contact-header {
+  width: 100%;
+}
+.blog .contact-header h1 {
+  margin-top: 55px;
+  margin-bottom: 59px;
+  border-bottom: 2px solid #000;
+  font-size: 30px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.blog .map {
+  width: 400px;
+}
+.blog .map .map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+}
+.blog .map .address {
+  width: 100%;
+  height: 161px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog .contactForm {
+  width: 529px;
+}
+.blog .contactForm .textFields {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  resize: none;
+  background-color: #F5F5F5;
+  border: none;
+}
+.blog .contactForm textarea {
+  padding-top: 20px;
+  min-height: 200px;
+}
+.blog .contactForm .submit {
+  width: 167px;
+  height: 60px;
+  font-size: 16px;
+  background-color: #79addc;
+  border-radius: 0;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+.blog .contactForm .submit a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 980px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact .map {
+    margin-bottom: 20px;
+  }
+}

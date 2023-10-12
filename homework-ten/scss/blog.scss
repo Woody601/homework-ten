@@ -1,0 +1,94 @@
+@import 'mixins.scss';
+.blog {
+    //height: 600px;
+    //background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .blog-header {
+        width: 100%;
+        h1 {
+            margin-top: 55px;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #000;
+            font-size: 30px;
+            font-family: 'Proxima Nova Condensed', sans-serif;
+            text-transform: uppercase;
+            width: max-content;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+    }
+    .blog-post {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        //background-color: burlywood;
+        margin-bottom: 100px;
+        .blog-date {
+            background-color: #79ADDC;
+            width: 60px;
+            height: 60px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .date {
+                padding-top: 9px;
+                font-size: 22px;
+                font-weight: bold;
+            }
+            .month {
+                font-size: 12px;
+                padding-bottom: 10px;
+                font-weight: lighter;
+                text-transform: uppercase;
+            }
+        }
+        .blog-image {
+            //background-color: darkorange;
+            width: 900px;
+            height: 259px;
+            margin-bottom: 34px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .blog-text {
+            width: 100%;
+            padding-left: 80px;
+            .blog-title {
+                font-size: 15px;
+                color: #000;
+                max-width: 380px;
+            }
+            .blog-description {
+                font-size: 13px;
+                color: #79ADDC;
+                max-width: 380px;
+                height: 64px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:980px) {
+    .blog {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .blog-post {
+            flex-direction: column;
+            max-width: 460px;
+            .blog-image {
+                width: 375px;
+                height: 133px;
+            }
+            .blog-text {
+                padding-left: 0;
+            }
+        }
+    }
+}

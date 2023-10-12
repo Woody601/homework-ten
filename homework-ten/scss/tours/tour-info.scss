@@ -1,0 +1,124 @@
+@import '../mixins.scss';
+.tour-info{
+    .hero {
+        margin: auto;
+        margin-top:94px;
+        height: 413px;
+        background-position: center;
+        max-width: 982px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .countryname {
+            padding: 18px 30px 0;
+            font-size: 60px;
+            color: #fff;
+            font-family: 'Proxima Nova Condensed', sans-serif;
+        }
+
+        .description {
+            font-size: 30px;
+            color: #fff;
+            text-align: right;
+            font-family: 'Proxima Nova Condensed', sans-serif;
+        }
+    }
+    .trip-pictures {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 982px;
+        margin: auto;
+        margin-top: 42px;
+        .picture {
+            width: 298px;
+            height: 347px;
+            display: block;
+            margin-bottom: 42px;
+        }
+    }
+    .trip-text {
+        max-width: 982px;
+        margin: auto;
+        h1 {
+            font-size: 60px;
+            font-family: 'Proxima Nova Condensed', sans-serif;
+            border-bottom: 2px solid #000;
+            width: max-content;
+            font-weight: normal;
+        }
+        p {
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 80px;
+        }
+    }
+    .book-now {
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        width: 133px;
+        @include site-button;
+    }
+    @media only screen and (max-width:896px) {
+        .trip-pictures {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+#israel {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/israel-wide.png");
+    }
+}
+#usa {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-02.png");
+    }
+}
+#austrailia {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-03.png");
+    }
+}
+#newzealand {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-04.png");
+    }
+}
+#france {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-05.png");
+    }
+}
+#egypt {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-06.png");
+    }
+}
+#japan {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-07.png");
+    }
+}
+#canada {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-08.png");
+    }
+}
+#uae {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+                   rgba(0, 0, 0, 0.4)), url("../images/tour-09.png");
+    }
+}
