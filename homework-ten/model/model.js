@@ -126,6 +126,7 @@ var aboutContent = `
 `;
 
 var toursContent = `
+<title>Tours</title>
 <div class="tours">
         <section class="hero">
             <div class="header">Tours:</div>
